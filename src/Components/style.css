@@ -1,0 +1,46 @@
+
+
+.logindis2{
+    display: none;
+}
+.profiledis2{
+    display: none;
+}
+.paymentdis2{
+    display: none;
+}
+
+.resdisplay2{
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .resdisplay2{
+        display: block;
+    }
+    .paymentdis2{
+        display: block;
+
+    }
+
+    .profiledis2{
+        display: block;
+    }
+.logindis2{
+    display: block;
+}
+.paymentdis{
+    display: none;
+}
+   .resdisplay{
+    display: none;
+   }
+   .logindis{
+    display: none;
+   }
+   .profiledis{
+    display: none;
+   }
+
+  }
+  

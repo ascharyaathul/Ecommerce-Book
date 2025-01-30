@@ -7,6 +7,8 @@ import Product from './Components/Product';
 import Profile from './Components/Profile';
 import AddToCart from './Components/AddToCart';
 import Payment from './Components/Payment';
+import ViewOrder from './Components/ViewOrder';
+import Company from './Components/Company';
 
 
 function App() {
@@ -20,6 +22,8 @@ function App() {
     <Route path="/profiles" element={<Profile/>}/>
     <Route path="/addtocart" element={<AddToCart/>}/>
     <Route path="/payment" element={<Payment/>}/>
+    <Route path="/vieworder" element={<ViewOrder/>}/>
+    <Route path="/company" element={<Company/>}/>
 
 
 
